@@ -19,7 +19,7 @@ classDiagram
   }
 
   class ReprodutorMusical {
-    - musicas: List<String>
+    - musicas: Array<String>
     - musicaSelecionada: String
     + tocar(): void
     + pausar(): void
